@@ -1,0 +1,101 @@
+.joinus {
+    background-color: rgb(228, 229, 247);
+    padding: 2% 0 2% 0;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    font-family: sans-serif;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border-radius: 10px;
+    background-color: #ffff;
+    padding: 1.8rem;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-text {
+    margin: 0;
+}
+
+
+
+.fb-btn {
+    background: #fff;
+    border: solid 2px rgb(69, 69, 185);
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.or {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(245 239 239);
+    line-height: 0.1em;
+    margin: 25px 0;
+}
+
+.or span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+
+.cta-btn {
+    display: block;
+    /* Change the display to block */
+    text-align: center;
+    /* Center-align text */
+    text-decoration: none;
+    /* Remove underlines */
+    background-color: rgb(69, 69, 185);
+    color: white;
+    padding: 18px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-student {
+    /* Add any specific styles for the "Student" button here */
+}
+
+.cta-professor {
+    /* Add any specific styles for the "Professor/Lecturer" button here */
+}
+
+.forget-pass {
+    text-align: center;
+    display: block;
+}
+
+
+@media screen and (max-width: 768px) {
+    .card{
+        width: 70%;
+    }
+}
