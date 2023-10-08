@@ -116,6 +116,7 @@ section{
 	font-size: 25%;
 	margin-top: -10%;
 	padding-left: 10%;
+	padding-top: 2%;
 }
 .hero-text p{
 	color: white;
@@ -387,6 +388,16 @@ section{
 		padding: 25px;
 		/* Add some padding to improve readability */
 		font-size: 10px;
+	}
+
+	.hero-text2 p {
+		color: #1E527E;
+		font-size: 130%;
+		line-height: 1.2;
+		margin-bottom: 40px;
+		font-family: 'Arno Pro',
+			serif;
+		/* font-style: italic; */
 	}
 
 	.tech-stack {
