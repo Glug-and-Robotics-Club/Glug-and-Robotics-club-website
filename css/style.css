@@ -386,6 +386,8 @@ section{
 		text-align: center;
 		/* Center-align text for smaller screens */
 		padding: 25px;
+		font-family: 'Arno Pro',
+		serif;
 		/* Add some padding to improve readability */
 		font-size: 10px;
 	}
