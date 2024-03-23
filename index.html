@@ -2,78 +2,120 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Glug & Robotics Club</title>
-	<link rel="icon" type="image/png" href="img/logo_gar.png" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Glug & Robotics Club</title>
+    <link rel="icon" type="image/png" href="img/logo_gar.png" />
 
-	<script src="js/aboutus.js"></script>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/aboutus.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<!-- Swiper css  -->
-	<link rel="stylesheet" href="css/swiper-bundle.min.css">
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-	<!-- Link Swiper's CSS -->
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- Swiper css  -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-	<!-- Add the FontAwesome CSS link below -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Add the FontAwesome CSS link below -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-	<script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css">
 
-	<!---custom css link--->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/card.css">
-	<link rel="stylesheet" type="text/css" href="css/joinus.css">
-	<link rel="stylesheet" type="text/css" href="css/aboutus.css">
+    <!---custom css link--->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/card.css">
+    <link rel="stylesheet" type="text/css" href="css/joinus.css">
+    <link rel="stylesheet" type="text/css" href="css/aboutus.css">
 
-	<!---boxicons link--->
-	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!---boxicons link--->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-	<!---remixicons link--->
-	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!---remixicons link--->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-	<!---google fonts link--->
-	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-		rel="stylesheet">
+    <!---google fonts link--->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 200px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            display: block;
+            padding: 10px;
+            margin: 5px 0;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+    </style>
 </head>
 
+<body>
 
-<header>
-	<div class="header-left">
-		<img src="img/revelogo.png" alt="Logo" class="logo-image">
-		<img src="img/logo_gar.png" alt="Logo" class="logo-image">
-		<a href="#" class="logo">Glug & Robotics Club</a>
-	</div>
+    <header>
+        <div class="header-left">
+            <img src="img/revelogo.png" alt="Logo" class="logo-image">
+            <img src="img/logo_gar.png" alt="Logo" class="logo-image">
+            <a href="#" class="logo">Glug & Robotics Club</a>
+        </div>
 
-	<ul class="navlist">
-		<li><a href="#">Home</a></li>
-		<li><a href="#aboutus">About Us</a></li>
-		<li>
-			<a href="https://github.com/Glug-and-Robotics-Club" target="_blank">
-				<span class="github-icon"><i class="fab fa-github fa-lg"></i></span>
-				Github
-			</a>
-		</li>
-		<li><a href="https://glug-and-robotics-club.github.io/Code-Quest/" target="_blank">Events</a></li>
-		<li><a href="#joinus">Join us</a></li>
-		<li><a href="#teams">Contact us</a></li>
-	</ul>
+        <ul class="navlist">
+            <li><a href="#">Home</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li>
+                <a href="https://github.com/Glug-and-Robotics-Club" target="_blank">
+                    <span class="github-icon"><i class="fab fa-github fa-lg"></i></span>
+                    Github
+                </a>
+            </li>
 
-	<div class="bx bx-menu" id="menu-icon"></div>
-</header>
+            <li class="dropdown"><a href="#">Events</a>
+                <div class="dropdown-content">
+                    <a href="Code-Quest/index.html">Cook with Prompt</a>
+                    <a href="https://glug-and-robotics-club.github.io/Code-Quest/">Code-quest</a>
+                </div>
+            </li>
+            <li><a href="#joinus">Join us</a></li>
+            <li><a href="#teams">Contact us</a></li>
+        </ul>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
 
 
 <section class="hero">
@@ -139,7 +181,7 @@
 				our members
 				gain invaluable knowledge and expertise. The journey of learning doesn't stop here - successful
 				completion of
-				projects earns students well-deserved experience certificates and rewards..
+				projects earns students well-deserved experience certificates and rewards.
 
 			</p>
 
